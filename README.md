@@ -35,3 +35,12 @@ module load anaconda3/2021.05/gcc-9.2.0
 
 - Nous avons également utilisé un script `sector_explicability.py` pour générer les explicabilités sectorielles: `python sector_explicability.py`
 
+## Documentation
+
+Nous avons utilisé Sphinx pour générer une documentation en html à partir du code. Cette documentation se trouve dans le dossier `html`. Pour l'ouvrir il faut télécharger le dossier et ouvrir le fichier `index.html` dans la racine.
+
+Voici quelques screenshots du résultat:
+
+![example 1](/html/ex1.png)
+
+![example 2](/html/ex2.png)
