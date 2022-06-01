@@ -2,18 +2,18 @@
 
 ## Installation
  
-Installer les requirements `pip install -r requirements.txt`
+Install the requirements `pip install -r requirements.txt`
 
-Il est également nécessaire d'installer [FinRL](https://github.com/AI4Finance-Foundation/FinRL#Installation)
+It is also necessary to install [FinRL](https://github.com/AI4Finance-Foundation/FinRL#Installation)
 
 
 ## Scripts
 
-- Le script principal est `main.py`. Ce script load le dataset, crée un agent, le train, le teste et calcule la matrice d'explicabilité.
+- The main script is `main.py`. This script loads the dataset, creates an agent, trains it, tests it and calculates the explainability matrix.
 
-Dans le script il est possible de sélectionner le type d'algorithme à utiliser (A2C, PPO)
+In the script it is possible to select the type of algorithm to use (A2C, PPO)
 
-Pour le lancer nous avons utilisé le mésocentre Moulon avec le code:
+To run it we used the Moulon mesocenter with the code:
 
 ```shell
 #!/bin/bash
@@ -33,13 +33,13 @@ module load anaconda3/2021.05/gcc-9.2.0
 ```
 
 
-- Nous avons également utilisé un script `sector_explicability.py` pour générer les explicabilités sectorielles: `python sector_explicability.py`
+- We also used a `sector_explicability.py` script to generate sectoral explainabilities: `python sector_explicability.py`
 
 ## Documentation
 
-Nous avons utilisé Sphinx pour générer une documentation en html à partir du code. Cette documentation se trouve dans le dossier `html`. Pour l'ouvrir il faut télécharger le dossier et ouvrir le fichier `index.html` dans la racine.
+We used Sphinx to generate html documentation from the code. This documentation can be found in the `html` folder. To open it you need to download the folder and open the `index.html` file in the root.
 
-Voici quelques screenshots du résultat:
+Here are some screenshots of the result:
 
 ![example 1](/html/ex1.png)
 
