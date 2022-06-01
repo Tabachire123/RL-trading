@@ -1,0 +1,35 @@
+""" Dow Jones Stocks with the corresponding sector.
+"""
+
+DOW_30_TICKER = {
+    "AXP": "Financial Services",
+    "AMGN": "Healthcare",
+    "AAPL": "Technology",
+    "BA": "Industrials",
+    "CAT": "Industrials",
+    "CSCO": "Technology",
+    "CVX": "Energy",
+    "GS": "Financial Services",
+    "HD": "Consumer",
+    "HON": "Industrials",
+    "IBM": "Technology",
+    "INTC": "Technology",
+    "JNJ": "Healthcare",
+    "KO": "Consumer",
+    "JPM": "Financial Services",
+    "MCD": "Consumer",
+    "MMM": "Industrials",
+    "MRK": "Healthcare",
+    "MSFT": "Technology",
+    "NKE": "Consumer",
+    "PG": "Consumer",
+    "TRV": "Financial Services",
+    "UNH": "Healthcare",
+    "CRM": "Technology",
+    "VZ": "Communication Services",
+    "V": "Financial Services",
+    "WBA": "Healthcare",
+    "WMT": "Consumer",
+    "DIS": "Communication Services",
+    "DOW": "Industrials"
+}
