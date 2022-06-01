@@ -1,0 +1,7 @@
+dow\_jones module
+=================
+
+.. automodule:: dow_jones
+   :members:
+   :undoc-members:
+   :show-inheritance:

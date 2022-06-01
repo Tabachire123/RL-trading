@@ -1,0 +1,7 @@
+sector\_explicability module
+============================
+
+.. automodule:: sector_explicability
+   :members:
+   :undoc-members:
+   :show-inheritance:

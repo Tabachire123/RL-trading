@@ -1,0 +1,7 @@
+trader module
+=============
+
+.. automodule:: trader
+   :members:
+   :undoc-members:
+   :show-inheritance:
